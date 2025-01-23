@@ -70,5 +70,11 @@ Steps for pre processing images
 
     -- Connected component labelling: differentiating objects 
 
+3. Bit depth 
+- this determins the number of possible intensity or color values a pixel can have. 
+- eg. 8-bit: 256 possibilities (2^8)
+    16-bit: 65,536 possible intensity values
+    24-bit: (mostly in rgb color images): each of the channels have 8-bits. so, 256*256*256= 16,777,216 color combinations
 
-
+- higher bit depth -- dynamic range of image
+- lower bit depth -- loss of details 
